@@ -3101,7 +3101,7 @@
 		background: #1c1c1c;
 		color: #d5d5d5;
 		cursor: default;
-		height: 5em;
+		height: 5.09em;
 		left: 0;
 		line-height: 5em;
 		position: fixed;
@@ -3983,6 +3983,55 @@
 		}
 		#flappyturtle:before {
 			padding-top:100px;display:block;content:"";
+		}
+
+		/*Dropdown Menu from http://www.w3schools.com/css/css_dropdowns.asp*/
+
+		/* Style The Dropdown Button */
+		.dropbtn {
+		    background-color: #1c1c1c;
+		    color: #e5474b;
+		    font-size: 16px;
+		    border: none;
+		    cursor: pointer;
+		}
+
+		/* The container <div> - needed to position the dropdown content */
+		.dropdown {
+		    position: relative;
+		    display: inline-block;
+		}
+
+		/* Dropdown Content (Hidden by Default) */
+		.dropdown-content {
+		    display: none;
+		    position: absolute;
+		    background-color: #f9f9f9;
+		    min-width: 240px;
+		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		}
+
+		/* Links inside the dropdown */
+		.dropdown-content a {
+		    color: black;
+		    padding: 16px 16px;
+		    text-decoration: none;
+		    display: block;
+		    width: 240px;
+		}
+
+		/* Change color of dropdown links on hover */
+		.dropdown-content a:hover {background-color: #ffe0e4}
+
+		/* Show the dropdown menu on hover */
+		.dropdown:hover .dropdown-content {
+		    display: block;
+		    text-align: left;
+		}
+
+		/* Change the background color of the dropdown button when the dropdown content is shown */
+		.dropdown:hover .dropbtn {
+		    background-color: #e5474b;
 		}
 
 		/*
