@@ -4036,7 +4036,8 @@
 
 		/*
 		Source: http://fiddle.jshell.net/hHnX5/1154/
-		Source's source: Taking from: http://snook.ca/archives/javascript/simplest-jquery-slideshow
+		Source's source: Taken from: http://snook.ca/archives/javascript/simplest-jquery-slideshow
+		This is a template.
 		*/
 		#slideshowboarder {
 		    position: relative;
@@ -4052,6 +4053,8 @@
 
 		.slideshow img {
 		    position: absolute;
+		    width: 360px;
+		    height: 240px;
 		}
 
 		.next, .prev {
@@ -4068,7 +4071,7 @@
 		    left: 0px;
 		}
 
-		/*slideshow_fileserver*/
+		/* slideshow_fileserver */
 		#slideshowboarder_fileserver {
 		    position: relative;
 		    width: 360px;
@@ -4083,6 +4086,8 @@
 
 		.slideshow_fileserver img {
 		    position: absolute;
+		    width: 360px;
+		    height: 240px;
 		}
 
 		.next_fileserver, .prev_fileserver {
@@ -4099,7 +4104,7 @@
 		    left: 0px;
 		}
 
-		/*slideshow_personalpc*/
+		/* slideshow_personalpc */
 		#slideshowboarder_personalpc {
 		    position: relative;
 		    width: 360px;
@@ -4114,6 +4119,8 @@
 
 		.slideshow_personalpc img {
 		    position: absolute;
+		    width: 360px;
+		    height: 240px;
 		}
 
 		.next_personalpc, .prev_personalpc {
@@ -4130,4 +4137,68 @@
 		    left: 0px;
 		}
 
+		/* slideshow_homenet */
+		#slideshowboarder_homenet {
+		    position: relative;
+		    width: 360px;
+		    height: 240px;
+		}
 
+		.slideshow_homenet {
+		    position: relative;
+		    width: 360px;
+		    height: 240px;
+		}
+
+		.slideshow_homenet img {
+		    position: absolute;
+		    width: 360px;
+		    height: 240px;
+		}
+
+		.next_homenet, .prev_homenet {
+		    position: absolute;
+		    cursor: pointer;
+		    top: 205px;
+		}
+
+		.next_homenet {
+		    right: 0px;
+		}
+
+		.prev_homenet {
+		    left: 0px;
+		}
+		
+		/* slideshow printserver */
+		#slideshowboarder_printserv {
+		    position: relative;
+		    width: 360px;
+		    height: 240px;
+		}
+
+		.slideshow_printserv {
+		    position: relative;
+		    width: 360px;
+		    height: 240px;
+		}
+
+		.slideshow_printserv img {
+		    position: absolute;
+		    width: 360px;
+		    height: 240px;
+		}
+
+		.next_printserv, .prev_printserv {
+		    position: absolute;
+		    cursor: pointer;
+		    top: 205px;
+		}
+
+		.next_printserv {
+		    right: 0px;
+		}
+
+		.prev_printserv {
+		    left: 0px;
+		}
