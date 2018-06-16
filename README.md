@@ -14,3 +14,4 @@ It will be continually updated as time goes by.
 ### Todo
 - Project Button: Transform intro click instead of hover http://www.w3schools.com/howto/howto_js_dropdown.asp
 - Create BLOG page
+- Redesign from the ground up. Start from a clean slate.

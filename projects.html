@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>beyond software.</title>
+		<title>Spencer's Projects</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -17,12 +17,13 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<a href="index.html" class="logo">beyond software.</a>
+					<a href="index.html" class="logo">Spencer's Projects</a>
 					<nav id="nav">
 						<a href="index.html">Home</a>
 						<div class="dropdown">
 						    <a href="projects.html" class="dropbtn">Projects</a>
 						    <div class="dropdown-content">
+								<a href="projects.html#snapbackwebapp"><b> Snapback Web App </b></a>
 								<a href="projects.html#recreationcentreapp"><b> Recreation Centre App </b></a>
 						    	<a href="projects.html#yourlifecounter"><b> Your Life Counter </b></a>
 								<a href="projects.html#mcdbms"><b> Medical Clinic DBMS </b></a>
@@ -39,6 +40,77 @@
 			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
 		<!-- Main -->
+			<section id="snapbackwebapp">
+				<div class="inner">
+					<header class="major special">
+						<br>
+						<h1>Snapback Web Application</h1>
+						<h3><a href="https://github.com/spencer-m/Snapback" class="icon fa-github"> <b>Project Files</b></a><h3>
+					</header>
+					<br>
+					<center><img src="images/snapback.png"/></center>
+					<p>
+					<center><b><i>A project for the Web-based Systems course</i></b></center>
+					<!--Rewrite me to feature more of what the app is about and what are the future plans for it.-->
+					<br>
+					Web-Based Systems taught me the basics of web-based systems (including relevant technologies and programming languages) 
+					not only in the classroom, but through a semester-long group project intended to educate us in the design and creation of 
+					web applications. The aforementioned web application had to fulfill the following list of requirements:
+					<br><br>
+					<ol>
+						<li>Client-side Component</li>
+						<ul>
+							<li>Majority of your application's functionality must be accessible through a single-page interface.</li>
+							<li>Your client side must be implemented using HTML, CSS and JavaScript technologies.</li>
+							<li>You are allowed to use any open source libraries in your implementation.</li>
+							<li>Your application must run in Google Chrome and Mozilla Firefox on desktop, and at least one mobile browser.</li>
+						</ul>
+						<li>Mobile support Component</li>
+						<ul>
+							<li>Your application must be usable on mobile devices.</li>
+							<li>You can choose one of the following mobile strategies: mobile friendly or mobile first.</li>
+						</ul>
+						<li>Server-side Component</li>
+						<ul>
+							<li>Most of the "business logic" should be performed on the server.</li>
+							<li>You should think of the client side as the GUI frontend for the server component.</li>
+							<li>In order to achieve this requirement, your implementation will have to rely on heavy use of JavaScript, combined with asynchronous communication with the server via Ajax or WebSockets technologies.</li>
+							<li>The server-side must be implemented using Node.js.</li>
+						</ul>
+						<li>Multiple Users Requirement</li>
+						<ul>
+							<li>Your application must support multiple simultaneous users.</li>
+							<li>Your application should implement at least a very basic user authentication.</li>
+						</ul>
+						<li>Persistence Requirement</li>
+						<ul>
+							<li>Your application needs to demonstrate persistence capabilites.</li>
+						</ul>
+						<li>User Interaction Requirement</li>
+						<ul>
+							<li>Users must be able to interact with other users of the system.</li>
+						</ul>
+					</ol>
+					In order to build a web app that meets all the requirements, we decided to do a combination of a learning 
+					management system (e.g. Desire2Learn) and a classroom interaction tool (e.g. Tophat). The result is a web app 
+					focusing both on a modern, streamlined access to course materials and a welcoming environment for students to 
+					pose questions.
+					<br><br>
+					Each team member was assigned a specific section of the web application to develop. We held weekly meetings 
+					to monitor each team member's progress. I was in charge of the Login and Registration pages as well as most 
+					of the backend tasks such as the database operations and setting up and designing the Node server.
+					<br><br>
+					Our web application used a lot of the technologies we learned in class, as well as technologies that we searched 
+					for that fit our needs. For the framework, we utilized Node.js and Express. For the frontend, we implemented it 
+					using JQuery, Bootstrap, connect-flash and EJS. For the bidirectional data transfer, we used a WebSockets library 
+					called socket.io. For our authentication, we implemented it using Passport.js. Finally, for our NoSQL database, 
+					we used MongoDB and Mongoose.
+					<br><br>
+					A live version is available <a href="https://snapback.herokuapp.com/">here</a>.
+					</p>
+				</div>
+			</section>
+
 			<section id="recreationcentreapp">
 				<div class="inner">
 					<header class="major special">
